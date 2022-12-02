@@ -1,0 +1,36 @@
+{
+  "name": "create-jwt-sample",
+  "version": "1.0.0",
+  "description": "simple example of jwt creation",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "set -o allexport; . ./.env; node src/index.js",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KirillGordievich/create-jwt-sample.git"
+  },
+  "keywords": [
+    "jwt"
+  ],
+  "author": "kirill.gordievich777@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KirillGordievich/create-jwt-sample/issues"
+  },
+  "homepage": "https://github.com/KirillGordievich/create-jwt-sample#readme",
+  "dependencies": {
+    "jsonwebtoken": "8.5.1"
+  },
+  "devDependencies": {
+    "eslint": "5.16.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "4.2.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-prettier": "3.0.1",
+    "nock": "11.8.2",
+    "prettier": "1.17.0"
+  }
+}
