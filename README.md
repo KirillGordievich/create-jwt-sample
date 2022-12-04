@@ -5,10 +5,7 @@ simple example of jwt creation
 - nodejs ^10.12
 
 ## Init
-1. 
-```
-cp .env-sample .env
-```
+1. `cp .env-sample .env`
 2. `npm install`
 3. Generate JWT RS256 key (Don't add passphrase):
 ```
